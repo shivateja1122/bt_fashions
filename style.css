@@ -231,9 +231,39 @@ body{
     transition:2s;
     top:-20px;
 }
-@media (max-width:450px){
+@media (max-width:450px) {
     .catagory {
-        display:none;
+        display: none;
     }
-    
+    .level-1-buttons{
+        font-size:0.7rem;
+    }
+    .main-img{
+        width: 100%;
+        height: auto;
+    }
+    .home-buttons{
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .home-buttons a{
+        font-size:1rem;
+        text-align: center;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .sale-text{
+        font-size:0.7rem;
+    }
+    .collection{
+        width:min(100px,auto);
+        height: auto;
+    }
+    .main-collection{
+        display:grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto;
+    }
+
 }
