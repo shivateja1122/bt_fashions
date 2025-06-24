@@ -232,6 +232,10 @@ body{
     top:-20px;
 }
 @media (max-width:650px) {
+    .body{
+        width:650px;
+        height:auto;
+    }
     .catagory {
         display: none;
     }
