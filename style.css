@@ -231,7 +231,7 @@ body{
     transition:2s;
     top:-20px;
 }
-@media (max-width:650px) {
+@media (max-width:1620px) {
     .body{
         width:650px;
         height:auto;
